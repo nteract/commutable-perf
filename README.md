@@ -1,13 +1,15 @@
 # commutable-perf
 
-This project addresses performance enhancements for the commutable library (https://github.com/nteract/commutable/issues/51).
+This project addresses performance enhancements for the
+[**commutable** library](https://github.com/nteract/commutable).
 
 ## Motivation
 
 The loading of the notebooks right now is optimized for accuracy. The next
 goal is to improve performance from the current baseline. This project provides
 a focused attempt to get notebook loading (and likely saving) down to
-reasonable numbers for frequent users.
+reasonable numbers for frequent users. Additional information is available in
+this issue: https://github.com/nteract/commutable/issues/51.
 
 ## Optimization targets for performance
 
