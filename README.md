@@ -16,4 +16,19 @@ reasonable numbers for frequent users.
 One culprit contributing to slow performance is the number of chained
 `.update` and other operations during multiline cleaning of the notebooks.
 
-### Additional areas
+## Notebook generation tool
+
+`gennb.py` generates a notebook for performance measurement of notebook
+loading. The following is the usage of `gennb.py`:
+
+```
+usage: gennb.py [-h] [--lines LINES] [--cells CELLS] fname
+
+positional arguments:
+  fname            output filename for notebook
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --lines LINES    number of lines of input/output per cell
+  --cells CELLS    number of cells
+```
